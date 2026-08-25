@@ -3,7 +3,7 @@
 > Portfolio personal de **Moisés Acevedo** — Arquitecto de Sistemas IA, Operaciones y Automatización.
 > Fundador de [Industrial Nodes](https://industrialnodes.com), la plataforma que convierte lenguaje natural en sistemas n8n de producción.
 
-**→ [Ver el sitio](https://lexmoibusiness-stack.github.io/Lex-Portfolio/)**
+**→ [lex.industrialnodes.com](https://lex.industrialnodes.com)**
 
 ---
 
@@ -127,8 +127,14 @@ El origen `file://` bloquea algunas features del navegador. Si algo se ve raro a
 GitHub Pages desde la rama principal, carpeta raíz. Cualquier `push` publica en segundos.
 
 ```
-Settings → Pages → Source: rama principal · carpeta / (root)
+Settings → Pages → Source: Deploy from a branch · main · / (root)
 ```
+
+**Dominio propio:** el sitio se sirve desde `lex.industrialnodes.com`, un subdominio apuntado a GitHub Pages por CNAME. El archivo `CNAME` en la raíz del repo lo genera GitHub y no debe borrarse: sin él, el dominio deja de resolver en el siguiente despliegue.
+
+| Tipo | Nombre | Valor |
+|---|---|---|
+| CNAME | `lex` | `lexmoibusiness-stack.github.io` |
 
 ---
 
