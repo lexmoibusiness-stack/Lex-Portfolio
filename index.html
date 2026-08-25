@@ -8,19 +8,20 @@
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400;500&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
   :root {
-    --bg: #0a0a08;
-    --bg2: #111110;
-    --bg3: #181817;
-    --gold: #c9a84c;
-    --gold-light: #e4c97e;
-    --gold-dim: #7a5f2a;
-    --cream: #f0e8d5;
-    --cream-dim: #a89880;
-    --white: #faf8f4;
-    --accent: #4a7c59;
+    /* Industrial Nodes · #0A0A0C + #F26522 */
+    --bg: #0a0a0c;
+    --bg2: #121215;
+    --bg3: #1b1b1f;
+    --gold: #f26522;          /* naranja de marca */
+    --gold-light: #ff8a4c;
+    --gold-dim: #8a3a12;
+    --cream: #f0ece7;
+    --cream-dim: #9b948d;
+    --white: #fafafa;
+    --accent: #4a7c59;        /* verde: solo estados "en vivo / facturando" */
     --accent-light: #6aab7d;
-    --border: rgba(201,168,76,0.15);
-    --border-strong: rgba(201,168,76,0.35);
+    --border: rgba(242,101,34,0.15);
+    --border-strong: rgba(242,101,34,0.35);
   }
 
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -235,7 +236,7 @@
     position: absolute;
     inset: 0;
     background:
-      radial-gradient(ellipse at 70% 40%, rgba(201,168,76,0.12) 0%, transparent 60%),
+      radial-gradient(ellipse at 70% 40%, rgba(242,101,34,0.12) 0%, transparent 60%),
       radial-gradient(ellipse at 30% 80%, rgba(74,124,89,0.08) 0%, transparent 50%);
   }
 
@@ -425,7 +426,7 @@
     font-family: 'Cormorant Garamond', serif;
     font-size: 4rem;
     font-weight: 300;
-    color: rgba(201,168,76,0.1);
+    color: rgba(242,101,34,0.1);
     position: absolute;
     top: 1rem; right: 2rem;
     line-height: 1;
@@ -433,7 +434,7 @@
     transition: color 0.4s;
   }
 
-  .servicio-card:hover .servicio-num { color: rgba(201,168,76,0.2); }
+  .servicio-card:hover .servicio-num { color: rgba(242,101,34,0.2); }
 
   .servicio-badge {
     display: inline-block;
@@ -686,7 +687,7 @@
     line-height: 1.6;
     padding: 1.5rem;
     border-left: 2px solid var(--gold);
-    background: rgba(201,168,76,0.04);
+    background: rgba(242,101,34,0.04);
   }
 
   /* TikTok embed style */
@@ -694,7 +695,7 @@
     margin-top: 1.5rem;
     padding: 1rem 1.25rem;
     border: 1px solid var(--border);
-    background: rgba(201,168,76,0.03);
+    background: rgba(242,101,34,0.03);
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -1192,7 +1193,7 @@
     content: '';
     position: absolute;
     inset: 0;
-    background: linear-gradient(135deg, rgba(201,168,76,0.08) 0%, transparent 60%);
+    background: linear-gradient(135deg, rgba(242,101,34,0.08) 0%, transparent 60%);
     z-index: 1;
     pointer-events: none;
   }
@@ -1994,7 +1995,7 @@
         Transición de gestión manual a gobernanza digital completa. 6 sistemas automatizados, 24 manuales ISO 9001 y visibilidad total en 4 países — la empresa opera ahora con supervisión mínima del fundador.
       </div>
 
-      <div class="caso-resultado-text" style="border-left:2px solid var(--gold);padding-left:1rem;background:rgba(201,168,76,0.06);">
+      <div class="caso-resultado-text" style="border-left:2px solid var(--gold);padding-left:1rem;background:rgba(242,101,34,0.06);">
         <strong style="color:var(--gold-light);">Y después:</strong> ya como creador independiente, Indalo Water me contrató como cliente de mi plataforma <strong>Industrial Nodes</strong> para desplegar un agente de WhatsApp que califica leads por geolocalización, investiga con Claude el sistema de agua de cada ciudad, genera un informe PDF y agenda visitas. Debutó en vivo en el <strong>SUMMIT FOR WELLBEING 2026</strong> con un pico de 140 leads/hora, sin caídas (ver <a href="#producto" style="color:var(--gold-light);">Industrial Nodes</a>).
       </div>
     </div>
@@ -2154,7 +2155,7 @@
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Volkswagen_logo_2019.svg/320px-Volkswagen_logo_2019.svg.png"
           alt="Brooklyn Volkswagen"
           class="dealer-img"
-          style="object-fit: contain; padding: 2.5rem; background: #1a1a18;"
+          style="object-fit: contain; padding: 2.5rem; background: #1b1b1f;"
           onerror="this.parentElement.innerHTML='<div class=\'dealer-logo-fallback\'><span>VW</span></div>'"
         />
         <div class="dealer-img-overlay"></div>
@@ -2182,7 +2183,7 @@
           src="https://www.5starautosales.com/Dealer-Websites/5-Star-Auto-Sales-Inc-NY/images/logo.png"
           alt="5 Star Auto Sales"
           class="dealer-img"
-          style="object-fit: contain; padding: 2rem; background: #1a1a18;"
+          style="object-fit: contain; padding: 2rem; background: #1b1b1f;"
           onerror="this.parentElement.innerHTML='<div class=\'dealer-logo-fallback\'><span>5★</span></div>'"
         />
         <div class="dealer-img-overlay"></div>
@@ -2210,7 +2211,7 @@
           src="https://platinumcollectionpb.com/wp-content/uploads/2023/11/Untitled-1-copy.png"
           alt="Platinum Collection PB"
           class="dealer-img"
-          style="object-fit: contain; padding: 2rem; background: #0f0f0d;"
+          style="object-fit: contain; padding: 2rem; background: #121215;"
           onerror="this.parentElement.innerHTML='<div class=\'dealer-logo-fallback\'><span>PLATINUM</span></div>'"
         />
         <div class="dealer-img-overlay"></div>
@@ -2234,7 +2235,7 @@
     <!-- 1Drive -->
     <div class="dealer-card animate-fade">
       <div class="dealer-img-wrap">
-        <div class="dealer-logo-fallback" style="background: linear-gradient(135deg, #0f1a0f 0%, #0a0a08 100%);">
+        <div class="dealer-logo-fallback" style="background: linear-gradient(135deg, #1f1008 0%, #0a0a0c 100%);">
           <span style="font-family: 'Syne', sans-serif; font-size: 1.4rem; font-weight: 700; color: var(--gold); letter-spacing: 0.1em;">1DRIVE</span>
         </div>
         <div class="dealer-img-overlay"></div>
