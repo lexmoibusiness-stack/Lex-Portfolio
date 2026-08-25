@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Moisés Acevedo · Arquitecto de Sistemas IA & Operaciones</title>
+<title>Moisés Acevedo · Arquitecto de Sistemas IA & Operaciones · Fundador de Industrial Nodes</title>
+<meta name="description" content="Arquitecto de sistemas de IA y operaciones. Fundador de Industrial Nodes, la plataforma que convierte lenguaje natural en sistemas n8n de producción. USA · Latam · España.">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400;500&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
   :root {
@@ -193,6 +194,34 @@
   .hero-cta:hover {
     background: var(--gold);
     color: var(--bg);
+  }
+
+  .hero-cta-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.85rem;
+    align-items: center;
+  }
+
+  .hero-cta-alt {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 1rem 1.6rem;
+    border: 1px solid var(--border-strong, rgba(255,255,255,0.18));
+    color: var(--cream);
+    text-decoration: none;
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-family: 'DM Mono', monospace;
+    transition: all 0.4s;
+    width: fit-content;
+  }
+
+  .hero-cta-alt:hover {
+    border-color: var(--accent-light);
+    color: var(--accent-light);
   }
 
   .hero-right {
@@ -1396,15 +1425,15 @@
 
 <!-- NAV -->
 <nav>
-  <span class="nav-logo">Lex Consulting</span>
+  <span class="nav-logo">Moisés Acevedo</span>
   <ul class="nav-links">
     <li><a href="#propuesta">Propuesta</a></li>
     <li><a href="#servicios">Servicios</a></li>
+    <li><a href="#producto">Industrial Nodes</a></li>
     <li><a href="#proyectos">Proyectos</a></li>
     <li><a href="#caso">Casos</a></li>
     <li><a href="#medios">Medios</a></li>
     <li><a href="#dealers">Automotriz</a></li>
-    <li><a href="#ventajas">Ventajas</a></li>
     <li><a href="#contacto">Contacto</a></li>
   </ul>
 </nav>
@@ -1412,15 +1441,18 @@
 <!-- HERO -->
 <section class="hero">
   <div class="hero-left">
-    <p class="hero-tag">Arquitecto de Sistemas IA & Operaciones · Latam · USA · España</p>
+    <p class="hero-tag">Arquitecto de Sistemas IA & Operaciones · Latam · USA · Europa</p>
     <h1 class="hero-name">Moisés<br><em>Acevedo</em></h1>
     <p class="hero-title">Sistemas IA · Automatización · Operaciones</p>
     <p class="hero-value">
-      Convierto operaciones caóticas en <strong>infraestructura medible</strong> — y construyo
-      el <strong>software de IA propio</strong> que la potencia: agentes empresariales, automatización
-      end-to-end y BI.
+      Convierto operaciones caóticas en <strong>infraestructura medible</strong> — y construí
+      el software que la fabrica: <strong>Industrial Nodes</strong>, la plataforma que va del
+      lenguaje natural a un sistema n8n en producción. Ya factura, con clientes reales.
     </p>
-    <a href="#contacto" class="hero-cta">Agendar llamada gratuita →</a>
+    <div class="hero-cta-row">
+      <a href="#contacto" class="hero-cta">Agendar llamada gratuita →</a>
+      <a href="https://industrialnodes.com" target="_blank" rel="noopener" class="hero-cta-alt">Ver Industrial Nodes ↗</a>
+    </div>
   </div>
   <div class="hero-right">
     <div class="hero-graphic"></div>
@@ -1438,8 +1470,8 @@
         <span class="stat-label">Países operando</span>
       </div>
       <div class="stat-card">
-        <span class="stat-number">3</span>
-        <span class="stat-label">Productos IA propios</span>
+        <span class="stat-number">140/h</span>
+        <span class="stat-label">Leads pico · agente en vivo</span>
       </div>
     </div>
     <div class="diagonal-line"></div>
@@ -1597,18 +1629,112 @@
       <span class="servicio-num">05</span>
       <span class="servicio-badge">Sistemas IA</span>
       <h3 class="servicio-name">Agentes IA & <br>Automatización con LLM</h3>
-      <p class="servicio-desc">Agentes conversacionales listos para producción (WhatsApp, soporte, captación de leads) y workflows con IA — construidos sobre mi propia plataforma Lex Operational Agents, del lenguaje natural al deploy en n8n.</p>
+      <p class="servicio-desc">Agentes conversacionales listos para producción (WhatsApp, soporte, captación de leads) y workflows con IA — construidos sobre mi propia plataforma <strong>Industrial Nodes</strong>, del lenguaje natural al deploy en n8n.</p>
       <div class="servicio-details">
-        <span class="servicio-detail">Agente conversacional con LLM (Claude / ChatGPT) + RAG</span>
-        <span class="servicio-detail">Blueprint técnico industrial + workflows n8n validados</span>
-        <span class="servicio-detail">Integraciones CRM / scheduling / storage / PDF / messaging</span>
-        <span class="servicio-detail">Entregable: sistema desplegado en n8n (cloud o self-hosted)</span>
+        <span class="servicio-detail">Agente conversacional con LLM (Claude / ChatGPT) + RAG con búsqueda híbrida</span>
+        <span class="servicio-detail">Blueprint técnico industrial + sistema multi-workflow validado en 9 fases</span>
+        <span class="servicio-detail">Idempotencia, reintentos, circuit breakers y error handler dedicado de fábrica</span>
+        <span class="servicio-detail">Entregable: sistema desplegado en tu n8n (Cloud o self-hosted, 1.x / 2.x)</span>
       </div>
       <div class="servicio-footer">
         <span class="servicio-time">1–3 semanas</span>
       </div>
     </div>
 
+  </div>
+</section>
+
+<!-- PRODUCTO: INDUSTRIAL NODES -->
+<style>
+  #producto .prod-hero{display:grid;grid-template-columns:1.15fr .85fr;gap:2.5rem;align-items:start;}
+  #producto .prod-eyebrow{font-family:'DM Mono',monospace;font-size:.65rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:.9rem;}
+  #producto .prod-name{font-family:'Syne',sans-serif;font-weight:800;font-size:2.6rem;line-height:1;color:var(--white);margin-bottom:.6rem;}
+  #producto .prod-sub{font-family:'DM Mono',monospace;font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--accent-light);margin-bottom:1.4rem;}
+  #producto .prod-lead{color:var(--cream);font-size:1rem;line-height:1.65;margin-bottom:1.4rem;}
+  #producto .prod-lead strong{color:var(--gold-light);}
+  #producto .prod-old{font-family:'DM Mono',monospace;font-size:.64rem;letter-spacing:.08em;color:var(--cream-dim);border-left:2px solid var(--gold-dim);padding-left:.7rem;margin-bottom:1.4rem;}
+  #producto .prod-bullets{list-style:none;display:flex;flex-direction:column;gap:.7rem;margin-bottom:1.8rem;}
+  #producto .prod-bullets li{position:relative;padding-left:1.1rem;color:var(--cream-dim);font-size:.88rem;line-height:1.55;}
+  #producto .prod-bullets li strong{color:var(--cream);}
+  #producto .prod-bullets li::before{content:'';position:absolute;left:0;top:.55em;width:5px;height:5px;background:var(--gold);transform:rotate(45deg);}
+  #producto .prod-cta{display:inline-flex;align-items:center;gap:.8rem;padding:1rem 2rem;border:1px solid var(--gold);color:var(--gold);text-decoration:none;font-family:'DM Mono',monospace;font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;transition:all .4s;}
+  #producto .prod-cta:hover{background:var(--gold);color:var(--bg);}
+  #producto .prod-side{display:flex;flex-direction:column;gap:1rem;}
+  #producto .prod-metrics{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--border);border:1px solid var(--border);}
+  #producto .prod-metric{background:var(--bg2);padding:1.1rem;}
+  #producto .prod-metric .v{font-family:'Syne',sans-serif;font-weight:700;font-size:1.5rem;color:var(--gold-light);line-height:1;}
+  #producto .prod-metric .l{font-family:'DM Mono',monospace;font-size:.58rem;letter-spacing:.1em;text-transform:uppercase;color:var(--cream-dim);margin-top:.4rem;display:block;}
+  #producto .prod-plans{border:1px solid var(--border);background:var(--bg2);padding:1.3rem;}
+  #producto .prod-plans-title{font-family:'DM Mono',monospace;font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent-light);margin-bottom:.9rem;}
+  #producto .prod-plan{display:flex;justify-content:space-between;align-items:baseline;gap:1rem;padding:.55rem 0;border-bottom:1px solid var(--border);}
+  #producto .prod-plan:last-child{border-bottom:none;}
+  #producto .prod-plan .pn{color:var(--cream);font-size:.85rem;}
+  #producto .prod-plan .pn span{display:block;font-family:'DM Mono',monospace;font-size:.6rem;color:var(--cream-dim);letter-spacing:.06em;margin-top:.15rem;}
+  #producto .prod-plan .pp{font-family:'Syne',sans-serif;font-weight:700;color:var(--gold-light);font-size:1rem;white-space:nowrap;}
+  @media(max-width:860px){#producto .prod-hero{grid-template-columns:1fr;}#producto .prod-name{font-size:2rem;}}
+</style>
+<section id="producto">
+  <div class="section-header">
+    <span class="section-num">03</span>
+    <div class="section-info">
+      <p class="section-tag">Mi producto · SaaS en vivo</p>
+      <h2 class="section-title">Industrial<br>Nodes</h2>
+    </div>
+  </div>
+
+  <div class="prod-hero">
+    <div>
+      <p class="prod-eyebrow">industrialnodes.com · facturando</p>
+      <div class="prod-name">Del lenguaje natural<br>a producción.</div>
+      <p class="prod-sub">Plataforma de automatización industrial para n8n</p>
+
+      <p class="prod-old">Antes: «Lex · Operational Agents». Mismo producto, nombre nuevo y ahora disponible como SaaS público.</p>
+
+      <p class="prod-lead">
+        Un consultor tarda <strong>1–3 semanas y 80–150 horas</strong> en diseñar y dejar en producción una automatización seria.
+        Industrial Nodes la analiza, diseña, genera, valida y despliega — <strong>en minutos</strong>, y en tu propia instancia de n8n.
+      </p>
+
+      <ul class="prod-bullets">
+        <li><strong>Dos caminos, un mismo estándar:</strong> wizards sin código (Soporte, 16 pasos; Contenido, 12) o un chat con MCP de <strong>16 herramientas reales</strong> que diseña, construye, valida y despliega conversando.</li>
+        <li><strong>No es un JSON bonito:</strong> genera sistemas multi-workflow (6–24 workflows orquestados) con HMAC firmado, idempotencia, reintentos por categoría de fallo, circuit breakers, error handler dedicado y audit log. De fábrica, no opcional.</li>
+        <li><strong>Validación industrial de 9 fases</strong> antes de entregarte nada — importa limpio a n8n 1.x y 2.x. Six Sigma 6.0σ, 3.000 tests unitarios más suites MCP/E2E.</li>
+        <li><strong>Cloud y self-hosted:</strong> el AI oficial de n8n solo corre en Cloud. Industrial Nodes despliega también a tu Docker o VPS. Tus credenciales y tus datos, de tu lado.</li>
+        <li><strong>Trae tu propia IA:</strong> conectas tu Claude Code o Desktop con tu API key y cargas las 16 tools — sin pagar tokens dos veces.</li>
+        <li><strong>Sin lock-in:</strong> lo generado vive en tu instancia y sigue operando aunque canceles.</li>
+      </ul>
+
+      <a href="https://industrialnodes.com" target="_blank" rel="noopener" class="prod-cta">Ver la plataforma ↗</a>
+    </div>
+
+    <div class="prod-side">
+      <div class="prod-metrics">
+        <div class="prod-metric"><span class="v">1.505</span><span class="l">Nodos n8n en catálogo</span></div>
+        <div class="prod-metric"><span class="v">78</span><span class="l">Adapters · 12 categorías</span></div>
+        <div class="prod-metric"><span class="v">9</span><span class="l">Fases de validación</span></div>
+        <div class="prod-metric"><span class="v">3.000</span><span class="l">Tests unitarios</span></div>
+      </div>
+
+      <div class="prod-plans">
+        <p class="prod-plans-title">Planes · founding tier</p>
+        <div class="prod-plan">
+          <div class="pn">Alfa<span>Los 2 wizards visuales</span></div>
+          <div class="pp">$30/mes</div>
+        </div>
+        <div class="prod-plan">
+          <div class="pn">Omega<span>Chat MCP · ≈5 proyectos/mes</span></div>
+          <div class="pp">$40/mes</div>
+        </div>
+        <div class="prod-plan">
+          <div class="pn">Sigma<span>Todo incluido · ≈10 proyectos/mes</span></div>
+          <div class="pp">$60/mes</div>
+        </div>
+        <div class="prod-plan">
+          <div class="pn">Custom<span>Agencias · volumen · white-label</span></div>
+          <div class="pp">A medida</div>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -1632,7 +1758,7 @@
 </style>
 <section id="proyectos">
   <div class="section-header">
-    <span class="section-num">03</span>
+    <span class="section-num">04</span>
     <div class="section-info">
       <p class="section-tag">Construido por mí</p>
       <h2 class="section-title">Proyectos<br>propios</h2>
@@ -1643,15 +1769,16 @@
     <div class="proy-card animate-fade">
       <div class="proy-top">
         <div>
-          <div class="proy-name">Lex Operational Agents</div>
-          <div class="proy-kind">Plataforma · Agentes IA (MCP)</div>
+          <div class="proy-name">Industrial Nodes</div>
+          <div class="proy-kind">Plataforma SaaS · Agentes IA (MCP)</div>
         </div>
         <span class="proy-tag">Facturando</span>
       </div>
-      <p class="proy-desc">Plataforma industrial que va del lenguaje natural al deploy en n8n. Servidor MCP con 13 herramientas, 51 adapters y 1.505 nodos n8n. Disciplina de release Six Sigma 6.0σ.</p>
+      <p class="proy-desc">Mi producto principal — plataforma que va del lenguaje natural a un sistema n8n en producción, hoy disponible como SaaS público. <a href="#producto" style="color:var(--gold-light);">Ver la sección completa ↑</a></p>
       <ul class="proy-points">
-        <li>Caso desplegado y facturado: agente de WhatsApp para <strong>Indalo Water</strong> (Panamá) — califica leads por geolocalización, genera reportes PDF y agenda visitas. ~80 leads/hora, cero rollback.</li>
-        <li>Motor de blueprints: convierte una intención de negocio en un spec técnico de 17 secciones. Con él nació mi asesoría con <strong>Morpheus LATAM</strong>.</li>
+        <li>Caso desplegado y facturado: agente de WhatsApp para una <strong>empresa líder en tratamiento de agua</strong> (Panamá · USA · España). Debutó en vivo en el <strong>SUMMIT FOR WELLBEING 2026</strong>: pico de 140 leads/hora, cero rollback, cero hotfix.</li>
+        <li>Error inicial del 7% reducido a <strong>menos del 2%</strong> calibrando en producción con el propio MCP. $2.500 USD en la primera entrega y 30 empresas referidas en pipeline.</li>
+        <li>Motor de blueprints: convierte una intención de negocio en un spec técnico de 17–18 secciones. Con él nació mi asesoría con <strong>Morpheus LATAM</strong>.</li>
       </ul>
       <div class="proy-stack">
         <span class="proy-chip">MCP</span><span class="proy-chip">n8n</span><span class="proy-chip">Claude</span><span class="proy-chip">Supabase</span><span class="proy-chip">Cloudflare R2</span><span class="proy-chip">Python</span>
@@ -1700,7 +1827,7 @@
 <!-- CASOS DE ÉXITO -->
 <section id="caso">
   <div class="section-header">
-    <span class="section-num">04</span>
+    <span class="section-num">05</span>
     <div class="section-info">
       <p class="section-tag">Resultados reales con clientes reales</p>
       <h2 class="section-title">Casos de<br>éxito</h2>
@@ -1868,7 +1995,7 @@
       </div>
 
       <div class="caso-resultado-text" style="border-left:2px solid var(--gold);padding-left:1rem;background:rgba(201,168,76,0.06);">
-        <strong style="color:var(--gold-light);">Y después:</strong> ya como creador independiente, Indalo Water me contrató como cliente de mi plataforma <strong>Lex Operational Agents</strong> para desplegar un agente de WhatsApp que califica leads por geolocalización y agenda visitas (ver <a href="#proyectos" style="color:var(--gold-light);">Proyectos</a>).
+        <strong style="color:var(--gold-light);">Y después:</strong> ya como creador independiente, Indalo Water me contrató como cliente de mi plataforma <strong>Industrial Nodes</strong> para desplegar un agente de WhatsApp que califica leads por geolocalización, investiga con Claude el sistema de agua de cada ciudad, genera un informe PDF y agenda visitas. Debutó en vivo en el <strong>SUMMIT FOR WELLBEING 2026</strong> con un pico de 140 leads/hora, sin caídas (ver <a href="#producto" style="color:var(--gold-light);">Industrial Nodes</a>).
       </div>
     </div>
   </div>
@@ -1949,7 +2076,7 @@
 <!-- PRESENCIA EN MEDIOS -->
 <section id="medios">
   <div class="section-header">
-    <span class="section-num">05</span>
+    <span class="section-num">06</span>
     <div class="section-info">
       <p class="section-tag">Distribución de contenido · Alcance internacional</p>
       <h2 class="section-title">Presencia<br>en medios</h2>
@@ -2005,7 +2132,7 @@
 <!-- DEALERS AUTOMOTRICES -->
 <section id="dealers">
   <div class="section-header">
-    <span class="section-num">06</span>
+    <span class="section-num">07</span>
     <div class="section-info">
       <p class="section-tag">Sector automotriz · USA · Marketplaces</p>
       <h2 class="section-title">Sistemas de ventas<br>para dealers</h2>
@@ -2134,7 +2261,7 @@
 <!-- VENTAJAS COMPETITIVAS -->
 <section id="ventajas">
   <div class="section-header">
-    <span class="section-num">07</span>
+    <span class="section-num">08</span>
     <div class="section-info">
       <p class="section-tag">Por qué trabajar con Moisés</p>
       <h2 class="section-title">Lo que me<br>diferencia</h2>
@@ -2177,7 +2304,7 @@
 <!-- HERRAMIENTAS -->
 <section id="herramientas">
   <div class="section-header">
-    <span class="section-num">08</span>
+    <span class="section-num">09</span>
     <div class="section-info">
       <p class="section-tag">Stack tecnológico</p>
       <h2 class="section-title">Herramientas<br>que domino</h2>
@@ -2187,10 +2314,10 @@
     <div class="tool-group animate-fade">
       <p class="tool-group-title">IA & Desarrollo</p>
       <ul class="tool-list">
-        <li>Servidores MCP</li>
+        <li>Servidores MCP (locales y remotos)</li>
         <li>Agentes LLM (Claude, ChatGPT)</li>
         <li>Blueprint & prompt engineering</li>
-        <li>RAG / vector stores</li>
+        <li>RAG híbrido / vector stores</li>
         <li>Python · FastAPI</li>
         <li>Next.js 14 · React Native / Expo</li>
       </ul>
@@ -2198,12 +2325,22 @@
     <div class="tool-group animate-fade">
       <p class="tool-group-title">Automatización & Cloud</p>
       <ul class="tool-list">
-        <li>n8n</li>
+        <li>n8n 1.x / 2.x · Cloud y self-hosted</li>
         <li>Make.com (Integromat)</li>
         <li>Zapier</li>
-        <li>Supabase · Cloudflare R2 · Redis</li>
-        <li>Web scraping · APIs e integraciones</li>
-        <li>Python (scripts)</li>
+        <li>Supabase (RLS) · Cloudflare R2 · Redis</li>
+        <li>Stripe · APIs e integraciones</li>
+        <li>Web scraping · Python (scripts)</li>
+      </ul>
+    </div>
+    <div class="tool-group animate-fade">
+      <p class="tool-group-title">Arquitectura & Fiabilidad</p>
+      <ul class="tool-list">
+        <li>Sistemas multi-workflow</li>
+        <li>Idempotencia · reintentos por fallo</li>
+        <li>Circuit breakers · rate limiting</li>
+        <li>Error handlers · audit log</li>
+        <li>HMAC SHA-256 · validación por fases</li>
       </ul>
     </div>
     <div class="tool-group animate-fade">
@@ -2244,7 +2381,7 @@
 <!-- CLIENTE IDEAL -->
 <section id="cliente">
   <div class="section-header">
-    <span class="section-num">09</span>
+    <span class="section-num">10</span>
     <div class="section-info">
       <p class="section-tag">¿Trabajamos juntos?</p>
       <h2 class="section-title">Tu empresa<br>es ideal si…</h2>
@@ -2302,7 +2439,7 @@
 <!-- CONTACTO -->
 <section id="contacto">
   <div class="section-header">
-    <span class="section-num">10</span>
+    <span class="section-num">11</span>
     <div class="section-info">
       <p class="section-tag">Hablemos</p>
       <h2 class="section-title">Trabajemos<br>juntos</h2>
@@ -2322,9 +2459,9 @@
     </div>
     <div>
       <div class="contacto-links">
-        <a href="/cdn-cgi/l/email-protection#dfb3baa7f1b2b0b6f1bdaaacb6b1baacac9fb8b2beb6b3f1bcb0b2" class="contacto-link">
+        <a href="mailto:lex@industrialnodes.com" class="contacto-link">
           <span class="link-label">Email</span>
-          <span><span class="__cf_email__" data-cfemail="19757c6137747670377b6c6a70777c6a6a597e74787075377a7674">[email&#160;protected]</span></span>
+          <span>lex@industrialnodes.com</span>
         </a>
         <a href="tel:+584242921942" class="contacto-link">
           <span class="link-label">WhatsApp / Teléfono</span>
@@ -2336,7 +2473,7 @@
         </div>
         <div class="contacto-link" style="cursor: default;">
           <span class="link-label">Mercados que atiendo</span>
-          <span>Venezuela · Latam · USA · España</span>
+          <span>Venezuela · Latam · USA · Europa</span>
         </div>
         <div class="contacto-link" style="cursor: default;">
           <span class="link-label">Idiomas</span>
@@ -2349,11 +2486,11 @@
 
 <!-- FOOTER -->
 <footer>
-  <span class="footer-name">Moisés Acevedo · Arquitecto de Operaciones</span>
+  <span class="footer-name">Moisés Acevedo · Arquitecto de Sistemas IA &amp; Operaciones · Fundador de <a href="https://industrialnodes.com" target="_blank" rel="noopener" style="color:var(--gold-light);text-decoration:none;">Industrial Nodes</a></span>
   <span class="footer-copy">© <span id="year">2026</span> · Todos los derechos reservados</span>
 </footer>
 
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+<script>
 // Auto year
 document.getElementById('year').textContent = new Date().getFullYear();
 
